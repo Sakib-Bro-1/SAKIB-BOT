@@ -56,7 +56,7 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
     fs.writeFileSync(gifPath, response.data);
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     api.changeNickname(`[ ${global.config.PREFIX} ] • ➠${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
-    return api.sendMessage("চলে এসেছি আমি পিচ্চি নয়ন তোমাদের মাঝে🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("চলে এসেছি আমি সাকিব তোমাদের মাঝে🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
 BOT CONNECTED SUCCESFUL !!! 
 
@@ -66,15 +66,15 @@ APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>
 AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
 
-DEVELOPER :Mohammad Nayan 
+𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 : 𝐒 𝐀 𝐊 𝐈 𝐁 ツ
 
-🟣Facebook Account Link: 
+🟣𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐀𝐜𝐜𝐨𝐮𝐧𝐭 𝐋𝐢𝐧𝐤: 
 
-https://www.facebook.com/www.xnxx.com169
+https://www.facebook.com/2ndJohnnySIns
 
-🔵WHATSAPP NUMBER: wa.me/+8801615298449
+🔵𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐍𝐔𝐌𝐁𝐄𝐑: wa.me/+8801615298449
 
-🟢SUPPORT EMAIL: www.mdmnnm2004@gmail.com`, attachment: fs.createReadStream(gifPath)}, threadID));
+🟢𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐄𝐌𝐀𝐈𝐋: thetoxicplayer430@gmail.com`, attachment: fs.createReadStream(gifPath)}, threadID));
   }})
 .catch(error => {
     console.error(error);
