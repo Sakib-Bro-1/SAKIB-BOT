@@ -72,7 +72,7 @@ AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR
 
 https://www.facebook.com/2ndJohnnySIns
 
-🔵𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐍𝐔𝐌𝐁𝐄𝐑: wa.me/+8801615298449
+🔵𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐍𝐔𝐌𝐁𝐄𝐑: wa.me/+8801765051219
 
 🟢𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐄𝐌𝐀𝐈𝐋: thetoxicplayer430@gmail.com`, attachment: fs.createReadStream(gifPath)}, threadID));
   }})
