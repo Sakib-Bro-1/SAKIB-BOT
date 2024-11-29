@@ -29,12 +29,12 @@ module.exports.run = async function({ api,Threads,Users, event, args, client, __
   var boxget = await Threads.getAll(['threadID'])
 var userget = await Users.getAll(['userID'])
     if (input==""){out(`You have not entered a tag, use the following tags: message/admin/member/male/female/gei/allgroup/alluser`)}
-    if (input=="message") {out(`This group has ${threadInfo.messageCount} message`)}
-    if (input=="admin"){out(`The group you have ${threadInfo.adminIDs.length} administrator`)}
-    if (input=="member"){out(`This group has ${threadInfo.participantIDs.length} member`)}
-    if (input=="male"){out(`This group has ${gendernam.length} member is male`)}
-    if (input=="female"){out(`This group has ${gendernu.length} member is female`)}
-    if (input=="gei"){out(`This group has ${nope.length} member is Gei`)}
+    if (input=="message") {out(`এই গ্রুপে ${threadInfo.messageCount} মেসেজ আছে। @S A K I B ツ`)}
+    if (input=="admin"){out(`এই গ্রুপে ${threadInfo.adminIDs.length} অ্যাডমিন আছে।`)}
+    if (input=="member"){out(`এই গ্রুপে ${threadInfo.participantIDs.length} জন মানুষ আছে। @S A K I B ツ`)}
+    if (input=="male"){out(`এই গ্রুপে ${gendernam.length} টি ছেলে আছে। @S A K I B ツ`)}
+    if (input=="female"){out(`এই গ্রুপে ${gendernu.length} টি মেয়ে আছে। @S A K I B ツ`)}
+    if (input=="gei"){out(`এই গ্রুপে ${nope.length} টি গে আছে। @S A K I B ツ`)}
     if (input=="allgroup"){out(`Total yes ${boxget.length} group chat using bots`)}
     if (input=="alluser"){out(`Total yes ${userget.length} users using bots`)}
   }
